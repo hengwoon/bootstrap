@@ -149,10 +149,10 @@
 
     , removeBackdrop: function () {
         if (this.$backdrop)
-	{
-		this.$backdrop.remove()
-        	this.$backdrop = null
-	}
+        {
+            this.$backdrop.remove()
+            this.$backdrop = null
+        }
       }
 
     , backdrop: function (callback) {
